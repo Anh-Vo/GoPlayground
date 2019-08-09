@@ -9,7 +9,7 @@ import (
 func main() {
 	arguments := os.Args
 	sum := 0
-	for i := i; i < len(arguments); i++ {
+	for i := 1; i < len(arguments); i++ {
 		temp, _ := strconv.Atoi(arguments[i])
 		sum += temp
 	}
